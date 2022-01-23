@@ -2,6 +2,15 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+      <FullPath>E:\codes\design-patterns\x64\Debug\builder-pattern.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\codes\design-patterns\x64\Debug\command-pattern.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\codes\design-patterns\x64\Debug\factory-pattern.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>E:\codes\design-patterns\x64\Debug\driver.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>

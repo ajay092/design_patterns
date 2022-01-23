@@ -9,8 +9,9 @@ int main()
     //driver.RunObserverPattern();
     //driver.RunDecoratorPattern();
     //driver.RunBuilderPattern();
-    driver.RunFactoryPattern();
-
+    //driver.RunFactoryPattern();
+    //driver.RunSingletonPattern();
+    driver.RunCommandPattern();
 
     return 0;
 }

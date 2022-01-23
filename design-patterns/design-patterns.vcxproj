@@ -148,8 +148,20 @@
     <ClInclude Include="driver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\builder-pattern\builder-pattern.vcxproj">
+      <Project>{d4309fa2-7506-45ef-a986-b0a96f4fc28d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\command-pattern\command-pattern.vcxproj">
+      <Project>{2775e76b-0d9d-4992-9860-ed35a1ca1cea}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\factory-pattern\factory-pattern.vcxproj">
+      <Project>{8de43c64-5aa8-44bb-b641-0c25ad5b2f50}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\observer-pattern\observer-pattern.vcxproj">
       <Project>{598a27da-989c-4675-a7e3-942ab4d39fd9}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\singleton-pattern\singleton-pattern.vcxproj">
+      <Project>{bf7cbe10-5eee-478c-82f8-0421e793e979}</Project>
     </ProjectReference>
     <ProjectReference Include="..\strategy-pattern\strategy-pattern.vcxproj">
       <Project>{ebfe8c66-9596-4f67-a37f-cd42c64016e9}</Project>

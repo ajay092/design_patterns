@@ -1,4 +1,5 @@
 #include "driver.h"
+#include <vector>
 
 Driver::Driver()
 {}
@@ -80,4 +81,43 @@ void Driver::RunFactoryPattern()
     chicago_store->OrderPizza("cheese");
     chicago_store->OrderPizza("veggie");
     delete chicago_store;
+}
+
+void Driver::RunSingletonPattern()
+{
+    cout << "Running singleton pattern...\n";
+
+   /* Singleton& singleton = Singleton::Get();
+    singleton.DoSomething();*/
+
+    Singleton* singleton1 = Singleton::Get();
+    singleton1->DoSomething();
+
+    Singleton* singleton2 = Singleton::Get();
+    singleton2->DoSomething();
+}
+
+void Driver::RunCommandPattern()
+{
+    cout << "Running command pattern...\n";
+
+    Light light{};
+
+    vector<LightComand> commands
+    {
+        LightComand(light, LightState::ON),
+        LightComand(light, LightState::OFF),
+        LightComand(light, LightState::HIGH),
+        LightComand(light, LightState::LOW),
+    };
+
+    for (auto& cmd : commands)
+    {
+        cmd.Execute();
+    }
+
+    for (auto& cmd : commands)
+    {
+        cmd.UnExecute();
+    }
 }

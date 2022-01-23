@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a0d51d80-b5a0-4fd6-8836-cafcdc4add0e": {
+      "ProjectGuid": "a0d51d80-b5a0-4fd6-8836-cafcdc4add0e",
+      "DisplayName": "driver",
+      "ColorIndex": 0
+    },
+    "ebfe8c66-9596-4f67-a37f-cd42c64016e9": {
+      "ProjectGuid": "ebfe8c66-9596-4f67-a37f-cd42c64016e9",
+      "DisplayName": "strategy-pattern",
+      "ColorIndex": 1
+    },
+    "598a27da-989c-4675-a7e3-942ab4d39fd9": {
+      "ProjectGuid": "598a27da-989c-4675-a7e3-942ab4d39fd9",
+      "DisplayName": "observer-pattern",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

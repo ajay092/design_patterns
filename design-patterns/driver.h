@@ -1,4 +1,3 @@
-#pragma once
 #ifndef DRIVER_H
 #define DRIVER_H
 
@@ -9,6 +8,9 @@
 #include "factory-pattern/pizza.h"
 #include "factory-pattern/pizza_ingredients_factory.h"
 #include "factory-pattern/pizza_store.h"
+#include "singleton-pattern/singleton.h"
+#include "command-pattern/command.h"
+#include "command-pattern/light.h"
 
 /*
 *   Driver class to run different scenarios
@@ -23,6 +25,8 @@ public:
     void RunDecoratorPattern();
     void RunBuilderPattern();
     void RunFactoryPattern();
+    void RunSingletonPattern();
+    void RunCommandPattern();
 
 };
 #endif // !DRIVER_H
